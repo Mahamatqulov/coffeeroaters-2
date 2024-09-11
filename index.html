@@ -25,7 +25,7 @@
                 <a class="sitenav__item" href="./index.html">HOME</a>
               </li>
               <li>
-                <a class="sitenav__item" href="./pages/plan.html">ABOUT US</a>
+                <a class="sitenav__item" href="./pages/about.html">ABOUT US</a>
               </li>
               <li>
                 <a class="sitenav__item" href="./pages/plan.html"
@@ -64,13 +64,28 @@
       <section class="section">
         <div class="container">
           <div class="content-1">
-            <img
-              class="content-backround"
-              src="./images/home/desktop/backround-img.png"
-              width="1111"
-              height="196"
-              alt=""
-            />
+            <picture>
+              <source
+                srcset="./images/home/desktop/tablet-backround.png"
+                width="689"
+                height="118"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="./images/home/desktop/mobile-backround.png"
+                width="375"
+                height="72"
+                media="(max-width: 410px)"
+              />
+              <img
+                class="content-backround"
+                src="./images/home/desktop/backround-img.png"
+                width="1111"
+                height="196"
+                alt=""
+              />
+            </picture>
+
             <div class="content-1__body">
               <div class="content-1__box">
                 <div>
@@ -281,7 +296,7 @@
                 <a class="footer__item" href="./index.html">HOME</a>
               </li>
               <li>
-                <a class="footer__item" href="./pages/">ABOUT US</a>
+                <a class="footer__item" href="./pages/about.html">ABOUT US</a>
               </li>
               <li>
                 <a class="footer__item" href="./pages/plan.html"
