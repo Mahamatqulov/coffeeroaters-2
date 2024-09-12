@@ -24,3 +24,114 @@
   color: $light-cream;
   font-family: $main-font;
 }
+
+.content-4-1 {
+  display: flex;
+  align-items: center;
+  gap: 12.5rem;
+  padding: {
+    left: 8.5rem;
+    right: 8.5rem;
+  }
+}
+
+.content-4-1__img img {
+  border-radius: 1rem;
+}
+
+.content-4-1__title {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-family: $secondary-font;
+  color: $dark-grey-blue;
+  margin-bottom: 3.2rem;
+}
+
+.content-4-1__text {
+  max-width: 54rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $dark-grey-blue;
+  opacity: 0.8;
+}
+
+.content-6 {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  gap: 9rem;
+  align-items: center;
+  margin-top: 24.4rem;
+  padding: 8.8rem 8.5rem;
+  background-color: $dark-grey-blue;
+  background-image: url(../images/plan/desktop/bg-quality.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.content-6__title {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-family: $secondary-font;
+  color: $light-cream;
+  margin-bottom: 3.2rem;
+}
+
+.content-6__text {
+  max-width: 54rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $light-cream;
+  opacity: 0.8;
+}
+
+.content-6__img img {
+  border-radius: 1rem;
+  margin-top: -18rem;
+}
+
+.content-7 {
+  max-width: 1045px;
+  width: 100%;
+  text-align: left;
+  padding: 16.8rem 15rem 16.8rem 8.5rem;
+}
+
+.content-7__title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-family: $secondary-font;
+  color: $gray;
+  margin-bottom: 7.2rem;
+}
+
+// address {
+//   width: 28.5rem;
+// }
+.content-7__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 9.5rem;
+  align-items: center;
+}
+
+.content-7__card img {
+  margin-bottom: 4.5rem;
+}
+
+.content-7__card__title {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin-bottom: 2.4rem;
+  font-style: normal;
+}
+
+.content-7__card__text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $gray;
+  font-style: normal;
+}

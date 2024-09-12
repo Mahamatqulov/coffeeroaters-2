@@ -6,6 +6,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-image: url(../images/plan/desktop/bg-order-summary.png);
+  background-position: center;
+  background-size: cover;
   background-color: $dark-grey-blue;
   border-radius: 1rem;
 }
@@ -311,6 +314,82 @@ footer {
     background-size: cover;
     border-radius: 1rem;
   }
+  .content-4-1__img img {
+    width: 281px;
+    height: 470px;
+  }
+  .content-4-1 {
+    display: flex;
+    align-items: center;
+    gap: 6.9rem;
+    padding: 0;
+  }
+  .content-4-1__title {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    margin-bottom: 3rem;
+  }
+  .content-4-1__text {
+    max-width: 33.9rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .content-6 {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    row-gap: 6.4rem;
+    margin-top: 24.4rem;
+    padding: 0 4.8rem 6.1rem 4.8;
+    background-color: $dark-grey-blue;
+    background-image: url(../images/plan/tablet/bg-quality.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .content-6__title {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    margin-bottom: 2.4rem;
+  }
+  .content-6__text {
+    max-width: 54rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .content-6__img img {
+    border-radius: 1rem;
+    margin-top: -18rem;
+  }
+  .content-7 {
+    max-width: 1045px;
+    width: 100%;
+    text-align: left;
+    padding: 16.8rem 4rem 16.8rem 4rem;
+  }
+  .content-7__title {
+    margin-bottom: 7.2rem;
+  }
+  .content-7__body {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .content-7__card img {
+    margin-bottom: 4.5rem;
+  }
+  .content-7__card__title {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+  .content-7__card__text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $gray;
+    font-style: normal;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -370,6 +449,10 @@ footer {
   }
   .content-2 {
     height: 90.2rem;
+    background-image: url(../images/plan/mobile/bg-order-summary.png);
+    background-position: center;
+    background-size: cover;
+    background-color: $dark-grey-blue;
   }
   .content__2 {
     padding: 6.4rem 2.4rem;
@@ -431,5 +514,77 @@ footer {
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
+  }
+  .content-4-1__img img {
+    width: 327px;
+    height: 400px;
+  }
+  .content-4-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.8rem;
+    text-align: center;
+    gap: 6.9rem;
+    padding: 0;
+  }
+  .content-6 {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+    row-gap: 6.4rem;
+    margin-top: 24.4rem;
+    padding: 0 2.4rem 6.1rem 2.4rem;
+    background-color: $dark-grey-blue;
+    background-image: url(../images/plan/mobile/bg-quality.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .content-6__title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 2.4rem;
+  }
+  .content-6__text {
+    max-width: 27.9rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .content-6__img img {
+    border-radius: 1rem;
+    margin-top: -8rem;
+    width: 279px;
+  }
+  .content-7 {
+    text-align: center;
+    padding: 16.8rem 2.4rem 12rem 2.4rem;
+  }
+  .content-7__title {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-family: $secondary-font;
+    color: $gray;
+    margin-bottom: 7.2rem;
+  }
+  .content-7__body {
+    flex-direction: column;
+    row-gap: 8rem;
+  }
+  .content-7__card img {
+    margin-bottom: 4.7rem;
+    position: relative;
+    left: 5rem;
+    align-self: center;
+  }
+  .content-7__card__title {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    margin-bottom: 2.2rem;
+  }
+  .content-7__card__text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
   }
 }
