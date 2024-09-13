@@ -1,47 +1,51 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
-  height: 100%;
+    font-size: 62.5%;
+    height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: $main-font;
-  font-size: 1.6rem;
-  line-height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    font-family: $main-font;
+    font-size: 1.6rem;
+    line-height: 1.6;
 }
 
 .container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.overflow-toggle {
+    overflow: hidden;
 }
 
 main {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  display: inline-block;
-  text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
 }
 
 img {
-  display: flex;
-  object-fit: cover;
+    display: flex;
+    object-fit: cover;
 }

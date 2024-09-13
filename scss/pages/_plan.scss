@@ -11,7 +11,7 @@
 
 .content-5__paragraph {
   font-size: 4rem;
-  line-height: 1.2rem;
+  line-height: 1.2;
   font-family: $secondary-font;
   color: $light-cream;
   padding-bottom: 2.4rem;
@@ -23,4 +23,190 @@
   line-height: 2.6rem;
   color: $light-cream;
   font-family: $main-font;
+}
+
+.plan {
+  max-width: 1280px;
+  padding: 10rem 8.5rem;
+  margin-top: 15.5rem;
+  background-color: $dark-grey-blue;
+  border-radius: 1rem;
+}
+
+.plan__body {
+  display: flex;
+  margin-bottom: 4.4rem;
+  gap: 9rem;
+}
+
+.plan__number {
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  font-weight: 900;
+  font-family: $secondary-font;
+  color: #fdd6ba;
+}
+
+.steps1 {
+  width: 830px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2px;
+  background-color: #fdd6ba;
+  margin: 8rem 0 6.7rem 0;
+}
+
+.plan__paragraph {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  padding: 3.8rem 0 4.2rem 0;
+  color: $light-cream;
+  font-family: $secondary-font;
+}
+
+.plan__text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: $light-cream;
+  font-family: $main-font;
+}
+
+.span1 {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background-color: $dark-grey-blue;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+
+.coffe-type {
+  display: flex;
+  gap: 12.5rem;
+  padding: 16rem 8.5rem;
+}
+
+.coffe-type__card__section {
+  max-width: 255px;
+  display: flex;
+  gap: 2.8rem;
+  padding: 2.4rem 0;
+  border-bottom: 2px solid $gray;
+}
+
+.coffe-type__card__section__number {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: $gray;
+  font-family: $secondary-font;
+}
+
+.coffe-type__card__section__title {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  font-family: $secondary-font;
+  color: $gray;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.coffe-type__box {
+  max-width: 73rem;
+  width: 100%;
+}
+
+.coffe-type__box__blok {
+  margin-bottom: 10rem;
+}
+
+.coffe-type__box__blok__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.6rem;
+  cursor: pointer;
+}
+
+.coffe-type__box__blok__body__title {
+  font-size: 4rem;
+  line-height: 1.2;
+  color: $gray;
+  font-family: $secondary-font;
+}
+
+.coffe-type__box__body {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+}
+
+.coffe-type__box__card1 {
+  max-width: 22.3rem;
+  width: 100%;
+  height: 25rem;
+  padding: 3.2rem 2.8rem 8.4rem 2.8rem;
+  background-color: #f4f1eb;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.coffe-type__box__card1:hover {
+  background-color: #fdd6ba;
+}
+
+.coffe-type__box__card1__title {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  font-family: $secondary-font;
+  color: $dark-grey-blue;
+  margin-bottom: 2.4rem;
+}
+
+.coffe-type__box__all {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.coffe-type__box__all__body {
+  max-width: 73rem;
+  width: 100%;
+  padding: 3.1rem 6.4rem;
+  background-color: $dark-grey-blue;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.coffe-type__box__all__title {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: $light-cream;
+  font-family: $main-font;
+  opacity: 0.6;
+}
+
+.coffe-type__box__all__text {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  font-family: $secondary-font;
+  font-weight: 900;
+  color: $light-cream;
+}
+
+.text__style {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  font-family: $secondary-font;
+  font-weight: 900;
+  color: #0e8784;
+}
+
+.coffe-type__card__section__title:hover {
+  color: $dark-grey-blue;
+}
+
+.coffe-type__card__section:nth-child(5) {
+  border-bottom: none;
 }

@@ -1,0 +1,38 @@
+.hidden-nav {
+  background-image: linear-gradient(
+    0deg,
+    rgba(254, 252, 247, 0.504981) 0%,
+    #fefcf7 55.94%
+  );
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.hidden-nav.show-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.hidden-nav__link {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  font-family: $secondary-font;
+  font-family: 900;
+  color: $dark-grey-blue;
+  margin-bottom: 3rem;
+  padding-top: 4rem;
+}

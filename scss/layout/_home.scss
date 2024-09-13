@@ -321,7 +321,7 @@ footer {
   .content-4-1 {
     display: flex;
     align-items: center;
-    gap: 6.9rem;
+    gap: 6rem;
     padding: 0;
   }
   .content-4-1__title {
@@ -390,6 +390,42 @@ footer {
     color: $gray;
     font-style: normal;
   }
+  .plan__body {
+    display: flex;
+    margin-bottom: 4.4rem;
+    gap: 1rem;
+  }
+  .plan__paragraph {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    padding: 3.8rem 0 4.2rem 0;
+  }
+  .plan__text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .steps1 {
+    width: 490px;
+  }
+  .plan {
+    max-width: 768px;
+    padding: 7rem 4rem;
+  }
+  .coffe-type__body {
+    display: none;
+  }
+  .coffe-type {
+    padding: 14.4rem 2rem 14.4rem 2rem;
+  }
+  .coffe-type__box__card1 {
+    padding: 3.2rem 2.4rem 8.4rem 2.4rem;
+  }
+  .coffe-type__box__all {
+    align-items: center;
+  }
+  .coffe-type__box__all__body {
+    padding: 2.7rem 4rem;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -400,7 +436,7 @@ footer {
     width: 168px;
     height: 18px;
   }
-  .sitenav__hamburger {
+  .navbar-toggle {
     display: block;
     cursor: pointer;
   }
@@ -586,5 +622,38 @@ footer {
   .content-7__card__text {
     font-size: 1.6rem;
     line-height: 2.6rem;
+  }
+  .steps1 {
+    display: none;
+  }
+  .plan__body {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .plan__cadr {
+    margin-top: 5.6rem;
+  }
+  .coffe-type__box__body {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .coffe-type__box__card1 {
+    max-width: 32.8rem;
+    width: 100%;
+    height: 15rem;
+  }
+  .coffe-type__box__card1__title {
+    margin-bottom: 8px;
+  }
+  .coffe-type__box__blok__body__title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+  .coffe-type__box__all {
+    align-items: center;
+  }
+  .coffe-type__box__all__body {
+    padding: 3.2rem 2.4rem;
   }
 }
