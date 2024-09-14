@@ -171,7 +171,7 @@ footer {
   align-items: center;
 }
 
-.content-footer__card__icon {
+.content-footer__card__icons {
   display: flex;
   gap: 2.4rem;
 }
@@ -186,6 +186,10 @@ footer {
 
 .content-footer__card__icon img:hover {
   filter: sepia(150%);
+}
+
+.content-footer__icon:hover path {
+  fill: #fdd6ba;
 }
 
 @media screen and (max-width: 1200px) {
@@ -293,7 +297,7 @@ footer {
   .content-footer__card {
     flex-direction: column;
   }
-  .content-footer__card__icon {
+  .content-footer__card__icons {
     display: flex;
     justify-content: center;
   }
